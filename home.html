@@ -4,6 +4,9 @@
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
 	<nav>
@@ -15,23 +18,41 @@
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+		<h1>Hello Beautiful World! </h1>
 
-		<img src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png">
+		<img id="image" src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-106649919-scaled-e1618860834581.jpg" alt="Image of a silly cat wearing a wig.">
+
+		<p> Welcome to my FABULOUS website. <br>
+			Are you smiling yet, because: </p>
+		<ul>
+			<li>You are wonderful!</li>
+			<li>You are inspiring!</li>
+			<li>You are fun!</li>
+		</ul>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
-			Your name:
-			<input type="text">
+			Your name:<br>
+			<input type="text"><br>
 
-			Message:
-			<input type="textarea">
+			Message:<br>
+			<input type="textarea"><br>
 
-			<input type="submit">
+			<p>How did you hear about this website?</p>
+			<input type="checkbox" id="source1" name="Google"/>
+			<label for="source1">Google</label><br>
 
+			<input type="checkbox" id="source2" name="Friend"/>
+			<label for="source2">A friend</label><br>
+
+			<input type="checkbox" id="source3" name="Other"/>
+			<label for="source3">Other</label><br>
+
+			<input class="subBtn" type="submit"><br>
 
 		</form>
+
+	
 
 	</content>
 

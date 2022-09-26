@@ -1,6 +1,163 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="./styles.css" rel="stylesheet">
 
-<br>
-<br>
 
-<a href="./home.html"><< Back </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Let's Get Personal!</h1>
+
+        <div class="profileInfoContainer">
+			<div class="slideshowContainer">
+				<div class="myImages fade">
+					<div class="number"> 1/4 </div>
+					<img src="./IMG_0070.jpg" alt="A picture of me and my family  hiking.">
+				</div>
+
+				<div class="myImages fade">
+					<div class="number"> 2/4 </div>
+					<img src="./IMG_0294.jpg" alt="A picture of us camping.">
+				</div>
+
+				<div class="myImages fade">
+					<div class="number"> 3/4 </div>
+					<img src="./IMG_0314.jpg" alt="A picture of the kids overlooking Lake Huron.">
+				</div>
+
+				<div class="myImages fade">
+					<div class="number"> 4/4 </div>
+					<img src="./IMG_0343_Original.HEIC.jpg" alt="Family talking a walk.">
+				</div>
+				
+				<a class="previousImage" onclick="plusImage(-1)">&#10094; </a>
+				<a class="nextImage" onclick="plusImage(1)">&#10095; </a>
+			</div>
+
+			
+			
+			
+			
+			<div class="aboutMeIntroPar">  
+       			 <p> I'm Christina. It's great to meet you! <br>
+            	Here are a few random facts about me: </p>
+         
+				<ul>
+					<li>I love learning!</li>
+					<li>I'm a tica-gringa.</li>
+					<li>I've been on TV before.</li>
+					<li> I've been a teacher for the past decade. </li>
+					<li>I'm married to the best man in the world.</li>
+					<li>I have two AMAZING kids! They keep me busy.</li>
+           			 
+            		<li>I want to become a programer to improve virtual learning. </li>
+				</ul>
+        	</div> 
+		</div>
+
+		<div class="additionalInfoCont">
+			<div class="additionalInfoInstructions"><p>Looking for more details? Click to reveal!</p></div>
+       		
+
+			<div class="card1">
+				<div class="card1_inner">
+					<div class="card1__face card1__face--front">
+						<h2>Skills!</h2>
+					</div>
+
+					<div class="card1__face card1__face--back">
+						<div class="card__content">
+							<div class="card__header">
+								<img src="./skill_4185738.png" alt="skills icon" class="skillsIcon" />
+								<div class="card__body"></div>
+									<h3>I'm a:</h3>
+									<ul >
+										<li>Project Manager</li>
+										<li>Media Creator</li>
+										<li>Solution Finder</li>
+										<li>Mentor</li>
+										<li>Course Designer</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="card2">
+				<div class="card2_inner">
+					<div class="card2__face card2__face--front">
+						<h2>Interests!</h2>
+					</div>
+
+					<div class="card2__face card2__face--back">
+						<div class="card__content">
+							<div class="card__header">
+								<img src="./pngtree-3d-cute-like-love-heart-icon-png-image_6092517.png" alt="interest icon" class="interestIcon" />
+								<div class="card__body"></div>
+									<h3>My Favorite Things are:</h3>
+									<ul >
+										<li>Indian Food</li>
+										<li>Nature</li>
+										<li>My Family</li>
+										<li>My Pets</li>
+										<li>Comedies</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card3">
+				<div class="card3_inner">
+					<div class="card3__face card3__face--front">
+						<h2>Goals!</h2>
+					</div>
+
+					<div class="card3__face card3__face--back">
+						<div class="card__content">
+							<div class="card__header">
+								<img src="./free-goal-and-target-icon-2854-thumb.png" alt="goal icon" class="goalIcon" />
+								<div class="card__body"></div>
+									<h3>I want to :</h3>
+									<ul >
+										<li>Become a Software Developer</li>
+										<li>Improve Virtual Learning</li>
+										<li>Create a Spanish Reading App for Kids</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="endPageBtns">
+		<button id="color">My Favorite Color</button>
+		<button id="place">My Favorite Place</button>
+		<button id="ritual">My Favorite Ritual</button>
+		</div>
+		<div class="backButton">
+			<a href="./home.html"><< Back </a>
+		</div>
+
+	</content>
+	<script src="./profile.js"></script>
+
+</body>
+</html>
+
